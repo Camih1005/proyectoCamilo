@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="InicioPagg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="IniciodeSesion/iniciarsesion.js">
+    <title>GAMLION</title>
+    
+</head>
+
+
+<body>
+   <div id="IniciarSecion">
+        <button id="botonInicio">&#128100
+            
+        </button>
+        
+    </div>
+    <div id="CartelInicioSecion" class="an animate__animated animate__fadeInDown ">
+        <div id="dentroDelInicio">
+            
+        <h1>Iniciar Sesion</h1>
+        
+        <label for="NombreUsuario" id="Usuario">Usuario</label>
+        <input id="inputIngresar" type="text">
+        <label for="Contraseña" id="Contraseña">Contraseña</label>
+        <input id="Inputcontraseña" id type="password">
+        <button id="ingresar">Ingresar</button>
+        <button id="registrarse" >Registrarse</button>
+        <button onclick="" id="cerrarInicio">Cerrar</button>
+        <a href="">Olvide la contraeña</a>
+    </div>
+    </div>
+ 
+
+
+
+    <div id="contenedorRegistro">
+    <div id="dentroDelregistro">
+        
+    <h1>Registrase</h1>
+    
+    <label for="NombreUsuario" id="Usuario">Ingrese Usuario a registrar</label>
+    <input id="inputRegistrar" type="text">
+    <label for="Contraseña" id="Contraseña">Ingrese contraseña nueva</label>
+    <input id="InputcontraseñaR" type="password">
+    <button id="RegistrarUS">Registrarse</button>
+    <button id="cerrarInicioR">Cerrar</button>
+    
+</div>
+</div>
+   
+    <div id="hamburguer">
+        
+       
+        <nav class="menu animate__animated animate__delay-5s" id="menu">
+            <button id="cerrarHambur" onclick="hamburguer()">X</button>
+            <ul>
+                <li><a href="InicioPag.html">Inicio</a></li>
+                <li><a href="comprar.html">Productos</a></li>
+                <li><a href="puntosdeventa.html">Puntos de venta</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li><a href="InicioPag.html">Asesor</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div  id="publicidad" class="oculto animate__animated animate__fadeInDown">
+        <div id="contPublicidad">
+        <h6>Diadema IrePro Edicion limitada</h6>
+        <img src="../proyecto/imagenesproyecto/modal-mobile-home.jpg" alt="img">
+        <p>Consigue la versión limitada de los IRE PRO H848, dedicada a Mobile Legends: Bang Bang, con un código secreto para acceder a un skin permanente. Encuéntralos en sus 3 versiones de color.</p>
+        <button id="cerrarBtn">Cerrar</button>
+    </div>
+    </div>
+    
+    <section class="iml">
+        
+        <video class="videoInicio" autoplay loop="loop" muted="'muted" src="../proyecto/imagenesproyecto/videoINCIOTeclado.m4v"></video>
+        
+        <header class="encabezado animate__animated animate__fadeInDown">
+            
+            <div class="grid  item1"><a href="InicioPag.html"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></a></div>
+            
+            
+
+            <div class="grid item2">
+                <label for="buscar"></label>
+                <input list="hola" id="buscar" placeholder="Buscar 🔎" name="buscar">
+                
+                
+                <datalist id="hola">
+                    <option value="Teclados"></option>
+                    <option value="Ratones"></option>
+                    <option value="Camaras Web"></option>
+                    <option value="Teclas"></option>
+                    <option value="Audio"></option>
+                </datalist>
+            </div>
+           
+            <button class="menu-hamburguesa animate__animated animate__delay-3s" id="menuHamburguesa">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+               
+            </button>
+            
+            <div class="grid elimM item3"><a href="InicioPag.html">Inicio</a></div>
+            <div class="grid elimM item4"><a href="comprar.html">Productos</a></div>
+            <div class="grid elimM item5"><a href="puntosdeventa.html">Puntos de venta</a></div>
+            <div class="grid elimM item6"><a href="comunidad.html">Comunidad</a></div>
+            <div class="grid elimM item7"><a href="InicioPag.html">Asesor</a></div>
+       
+
+        </header>
+        <div id="scroll"></div>
+        <h1 class="titulop">BIENVENIDO A GAMLION</h1>
+        <article class="container2 animate__animated animate__fadeInUp">
+            <div class="grid2 item01"><a href="">Teclados</a></div>
+            <div class="grid2 item02"><a href="">Ratones</a></div>
+            <div class="grid2 item03"><a href="">Audio</a></div>
+            <div class="grid2 item04"><a href="">Camaras</a></div>
+
+        </article>
+    </section>
+    <section id="productos" class="segundop">
+      
+        <div id="eliminarcel">
+            
+        <h1>MEJORES ACABADOS</h1>
+        <p>Materiales reciclables y mas duraderos</p>
+        
+        <div id="containerbotonReciclaje"><button id="botonInform" onclick="BotonReciclaje()">Mas informacion</button></div>
+    </div>
+        
+        <div id="Reciclaje">
+            <h1>Acabados recicables para mejorar el ambiente</h1>
+        <p>Dentro de los materiales reciclables comunes encontramos los plásticos de botellas, bolsas, envases y contenedores. Los metales como el hierro y el aluminio, y los productos de papel o cartón, vidrios, telas, entre otros. A su vez, existen otros tipos menos usuales, como las pilas, baterías y los electrodomésticos.</p></div>
+        <article class="container3 animate__animated animate__fadeInUp">
+            <h5 id="soloCel">Materiales Recicables y mas duraderos, con alta calidad.</h5>
+            <div id="cambiarColorDiadema" class="grid2 item001">
+                
+                <h2>Diademas &nbsp </h2>
+                <div class="contASK">
+                <div><button onclick="cambiarColorDi2()" id="div1"></button></div>
+                <div><button onclick="cambiarColorDi()" id="div2"></button></div>
+                <button class="botonvermasDiadema" onclick="toggleAudio()">Ver mas</button>
+            </div>
+            </div>
+           Entendido
+            <div id="cambiarRaton" class="grid2 item002"><h2>Ratones &nbsp</h2>
+                <div class="contASK">
+                <div><button onclick="cambiarColorRaton()" id="raton"></button></div>
+                <div><button onclick="cambiarColorRaton2()" id="raton2"></button></div>
+                <button class="botonvermasDiadema" onclick="toggleMouse()">Ver mas</button>
+            </div>
+            </div>
+            
+            <div id="CambiarTeclado" class="grid2 item003"><h2>Teclado &nbsp</h2>
+                <div class="contASK">
+                <div ><button onclick="cambiarColorteclado2()"id="teclado1"></button></div>
+                <div><button onclick="cambiarColorteclado()" id="teclado2"></button></div>
+                <button class="botonvermasDiadema" onclick="toggleTeclado()">Ver mas</button>
+            </div>
+            </div>
+            </div>
+            <div id="cambiarTeclas" class="grid2 item004"><h2>Teclas Mecanicas &nbsp</h2>
+                <div class="contASK">
+                <div ><button onclick="cambiarColorteclas2()" id="teclas1"></button></div>
+                <div><button onclick="cambiarColorteclas()"  id="teclas2"></button></div>
+                <button class="botonvermasDiadema" onclick="toggleTeclas()">Ver mas</button>
+            </div>
+            </div>
+            </div>
+            
+        </article>
+        <div id="Info" >
+            <div id="containerInfo">
+            
+        </div>
+        <h3 id="title" ></h3>
+        <p id="p"></p>
+        
+    </div>
+        
+
+    </section>
+    <div class="ProductoVendidos">
+        <h1 class="producto">PRODUCTOS MAS VENDIDOS DEL MES</h1>
+    <section class="container4 animate__animated animate__backInDown">
+        
+        
+        <div class="item-1 gr"><a href="">Barra de sonido LionSound</a>
+            
+            <div class="itemm-1"><img src="../proyecto/imagenesproyecto/DARKNET.png" alt=""><p>Barra de sonido ultra potente disponible en todos los colores</p>
+                
+                
+            </div>
+        </div>
+        <div class="item-2 gr"><a href="">Teclado LionPlus</a>
+            
+            <div class="itemm-2"><img src="../proyecto/imagenesproyecto/teladodescuento.png" alt=""><p>Teclado mecanico con pad para descansar las muñecas</p>
+                
+            
+            </div>
+        </div>
+        <div class="item-3 gr"><a href="">Combo LionPlus 378A</a>
+            
+            <div class="itemm-3"><img src="../proyecto/imagenesproyecto/combo.3.png" alt="">
+                <p>Combo Alambrico Ultra White Profesional</p>
+                
+            </div>
+        </div>
+
+    </section>
+</div>
+    <div class="bajar">
+    <article class="footer1 animate__animated animate__backInDown">
+       
+        <div  class="foot1 final">
+            <h1 class="ultimotitulo">¿QUIERES ESTAR AL TANTO DE NUESTROS PRODUCTOS?</h1>
+            <div class="for">
+                <p>Ponte al dia con nosotros, deja tus datos y te estaremos enviando noticias de eventos, productos
+                    nuevos y lo mejor de todo DESCUENTOS!!</p>
+                <form class="formulario">
+                    <ul>
+                        <li>
+                            <label for="name">Nombre Completo</label>
+                            <br>
+                            <input type="text" id="name" name="user_name" placeholder="Nombre completo" />
+                        </li>
+                        <br>
+                        <li>
+                            <label for="mail">Correo Electrónico</label>
+                            <br>
+                            <input type="email" id="mail" name="user_mail" placeholder="Correo Electronico" />
+                        </li>
+                        <button id="mostrarAlerta" class="botonFormu">Enviar</button>
+                        
+
+                    </ul>
+                    
+                </form>
+                <div class="modal" id="miModal">
+                    <div class="modal-contenido">
+                        <p id="aggpp"></p>
+                        <button id="enviarBtn">Enviar</button>
+                        <button id="cerrarBtn">Cerrar</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+      
+
+    </article>
+    <footer class="ultimo">
+        <div class="container5">
+            
+            <div class="ult fin3"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></div>
+            <div class="ult fin2">
+                <ul>
+                    <li><a href="">COMUNIDAD</a></li>
+                    <li><a href="">CENTRO DE AYUDA</a></li>
+                    <li><a href="">PUNTOS DE VENTA</a></li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+
+            </div>
+            
+            
+        </div>
+        
+    </footer>
+    <div id="cockies">
+        <h3><a href="">Terminos y condiciones</a></h3>
+    <h4><a href="">Cookies</a></h4>
+    <h5><a href="">GamLion2023℗</a></h5>
+    </div>
+</div>
+
+<script>
+
+
+
+    function toggleAudio() {
+      let info = document.getElementById('Info');
+      info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+      const mouseTitle = document.getElementById('title')
+      const p = document.getElementById('p')
+      mouseTitle.innerHTML = 'ESCUCHA: ESTO ES EL TODO'
+      p.innerHTML = 'Potentes, hermosos, totales. Con retroiluminación RGB, un micrófono excepcional, construcción cómoda y robusta, y —lo más importante— una calidad de sonido arrolladora, los aclamados Zeus vuelven con más <br> '
+
+    }
+    
+
+    function toggleMouse() {
+      let info = document.getElementById('Info');
+      info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+      const mouseTitle = document.getElementById('title')
+      const p = document.getElementById('p')
+      mouseTitle.innerHTML = 'WIRELESS + PARACORD: LO MEJOR DE LO MEJOR'
+      p.innerHTML = 'El sistema inalámbrico de 2,4 GHz del Storm Pro es de alta velocidad que virtualmente anula la latencia y proporciona una respuesta  instantanea, absolutamente fiable. Ademas invluye un cable extraible de paracord ultra liviano, el material optimo. '
+
+    }
+
+    
+    function toggleTeclado() {
+      let info = document.getElementById('Info');
+      info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+      const mouseTitle = document.getElementById('title')
+      const p = document.getElementById('p')
+      mouseTitle.innerHTML = 'HORUS MINI BLACK'
+      p.innerHTML = 'La principal diferencia entre las dos versiones del Horus Mini es la conectividad. la version estandar cuenta con cable USB C desmontable, con ficha en el, Super teclado para jugar tus juegos favoritos con alta fluidez y lo mejor de todo INALAMBRICO'
+
+    }
+
+    function toggleTeclas() {
+      let info = document.getElementById('Info');
+      info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+      const mouseTitle = document.getElementById('title')
+      const p = document.getElementById('p')
+      mouseTitle.innerHTML = 'TECLAS MECANICAS ULTRA DELGADAS'
+      p.innerHTML = 'Lo mejor de lo mejor, teclas de alto desempeño para un mejor juego, Mecanicas para poder cambiar cuando quieras y modificarlas a tu gusto'
+
+    }
+    function BotonReciclaje() {
+      let info = document.getElementById('Reciclaje');
+      info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+     
+    }
+    function cambiarColorDi(){
+        const colorDia = document.getElementById('cambiarColorDiadema')
+        colorDia.classList.remove("item001");
+        colorDia.classList.add('cambiarColor')
+        
+    }
+    function cambiarColorDi2(){
+        const colorDia = document.getElementById('cambiarColorDiadema')
+        colorDia.classList.remove("cambiarColor");
+        colorDia.classList.add('item001')
+        
+    }
+    function cambiarColorRaton(){
+        const colorDia = document.getElementById('cambiarRaton')
+        colorDia.classList.remove("item002");
+        colorDia.classList.add('cambiarColorRaton')
+        
+    }
+    function cambiarColorRaton2(){
+        const colorDia = document.getElementById('cambiarRaton')
+        colorDia.classList.remove("cambiarColorRaton");
+        colorDia.classList.add('item002')
+        
+    }
+    function cambiarColorteclado(){
+        const colorDia = document.getElementById('CambiarTeclado')
+        colorDia.classList.remove("item003");
+        colorDia.classList.add('cambiarColorTeclado')
+        
+    }
+    function cambiarColorteclado2(){
+        const colorDia = document.getElementById('CambiarTeclado')
+        colorDia.classList.remove("cambiarColorTeclado");
+        colorDia.classList.add('item003')
+        
+    }
+    function cambiarColorteclas(){
+        const colorDia = document.getElementById('cambiarTeclas')
+        colorDia.classList.remove("item004");
+        colorDia.classList.add('cambiarColorTeclas')
+        
+    }
+    function cambiarColorteclas2(){
+        const colorDia = document.getElementById('cambiarTeclas')
+        colorDia.classList.remove("cambiarColorTeclas");
+        colorDia.classList.add('item004')
+        
+    }
+    document.addEventListener("DOMContentLoaded", function() {
+    let publicidad = document.getElementById("publicidad");
+    let cerrarBtn = document.getElementById("cerrarBtn");
+
+
+  cerrarBtn.addEventListener("click", function() { 
+         publicidad.style.display = "none";
+     });
+
+   setTimeout(function() {
+       publicidad.style.display = "block";   }, 6000); 
+ });
+
+//     // function formularioEnviado(){
+//     //     let info = document.getElementById('PublicidadEnviar');
+//     //     event.preventDefault();
+//     //   info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+//     //   let valornombre = document.getElementById('name').value 
+//     //   let p = document.getElementById('pp')
+//     //   let mail = document.getElementById('mail').value
+
+//     //   p.innerHTML = `Gracias ${valornombre} por confiar en nosotros, te enviaremos al correo ${mail},si el correo esta mal vuelve a ponerlo. <BR> Todas las semanas te estaremos actualizando para que estes al tanto con nuestros productos y eventos.`
+
+      
+    // }
+
+    document.getElementById("mostrarAlerta").addEventListener("click", function(event) {
+        let agrP = document.getElementById('aggpp')
+    let valornombre = document.getElementById('name').value 
+    let mail = document.getElementById('mail').value
+    agrP.innerHTML=`Gracias ${valornombre} por confiar en nosotros, te estaremos enviando noticias y descuentos para que estes al tanto, pero antes de todo el correo ${mail} si esta bien escrito para que no te pierdas de nada¡`
+    event.preventDefault();
+    document.getElementById("miModal").style.display = "block";
+});
+
+document.getElementById("cerrarBtn").addEventListener("click", function(event) {
+    console.log(cerrarBtn)
+    
+    event.preventDefault();
+    document.getElementById("miModal").style.display = "none";
+});
+
+document.getElementById("enviarBtn").addEventListener("click", function(event) {
+    event.preventDefault();
+    
+    // Aquí puedes agregar la lógica para enviar
+    // Puedes agregar código adicional según tus necesidades
+    document.getElementById("miModal").style.display = "none";
+});
+
+function hamburguer() {
+      let info = document.getElementById('menu');
+      info.style.display = (info.style.display === 'none') ? 'block' : 'none';
+      const agglist = document.getElementById('')
+      const p = document.getElementById('menu')
+      
+
+    }
+    const barraMenu = document.getElementById('menuHamburguesa')
+    barraMenu.addEventListener('click',hamburguer)
+    function cambiarcolor(){
+        inicioSecion.style.filter = 'invert(0)'
+        inicioSecion.style.width = '80px'
+        inicioSecion.style.height = '40px'
+        inicioSecion.textContent= 'iniciar secion'
+        inicioSecion.style.transition = '0.5s ease-out'
+        inicioSecion.style.backgroundColor = 'black'
+        inicioSecion.style.color = 'white'
+        
+       
+
+        
+    }
+    
+
+</script>
+<script type="module" src="IniciodeSesion/iniciarsesion.js"></script>
+</body>
+
+</html>

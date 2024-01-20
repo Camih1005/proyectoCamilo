@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="comunidad.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Comunidad</title>
+    
+</head>
+<body> 
+    <div id="IniciarSecion">
+        <button id="botonInicio">&#128100
+            
+        </button>
+        <div id="CartelInicioSecion" class="an animate__animated animate__fadeInDown ">
+            <div id="dentroDelInicio">
+                
+            <h1>Iniciar Sesion</h1>
+            
+            <label for="NombreUsuario" id="Usuario">Usuario</label>
+            <input id="inputIngresar" type="text">
+            <label for="Contraseña" id="Contraseña">Contraseña</label>
+            <input id="Inputcontraseña" id type="password">
+            <button id="ingresar" onclick="iniciarSesion()">Ingresar</button>
+            
+            <button id="registrarse" >Registrarse</button>
+            <button id="cerrarInicio">Cerrar</button>
+            <a href="">Olvide la contraeña</a>
+        </div>
+        </div>
+        <div id="InicioCorrecto">
+        <div id="cacasInicio" >
+    
+            <h1>Inicio exitoso</h1>
+            <p id="iniciosesionPP">
+            </p>
+            <button id="Entendido">Entendido</button>
+            <button><a href="../proyecto/formulario.html">Ir al formulario</a></button>
+    
+        </div>
+    </div>
+    
+    
+    
+        <div id="contenedorRegistro">
+        <div id="dentroDelregistro">
+            
+        <h1>Registrase</h1>
+        
+        <label for="NombreUsuario" id="Usuario">Ingrese Usuario a registrar</label>
+        <input id="inputRegistrar" type="text">
+        <label for="Contraseña" id="Contraseña">Ingrese contraseña nueva</label>
+        <input id="InputcontraseñaR" type="password">
+        <button id="RegistrarUS">Registrarse</button>
+        <button id="cerrarInicioR">Cerrar</button>
+        
+    </div>
+    </div>
+    </div>
+    <div id="hamburguer">
+        
+       
+        <nav class="menu animate__animated animate__delay-5s" id="menu">
+            <button id="cerrarHambur" onclick="hamburguer()">X</button>
+            <ul>
+                <li><a href="InicioPag.html">Inicio</a></li>
+                <li><a href="comprar.html">Productos</a></li>
+                <li><a href="puntosdeventa.html">Puntos de venta</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li><a href="InicioPag.html">Asesor</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="iml">
+       <video class="videoInicio" autoplay loop="loop" muted="'muted" src="../proyecto/imagenesproyecto/video inicio.mp4"></video>
+        <header class="encabezado animate__animated animate__fadeInDown">
+            
+            <div class="grid  item1"><a href="InicioPag.html"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></a></div>
+            
+            
+
+            <div class="grid item2">
+                <label for="buscar"></label>
+                <input list="hola" id="buscar" placeholder="Buscar 🔎" name="buscar">
+                
+                
+                <datalist id="hola">
+                    <option value="Teclados"></option>
+                    <option value="Ratones"></option>
+                    <option value="Camaras Web"></option>
+                    <option value="Teclas"></option>
+                    <option value="Audio"></option>
+                </datalist>
+            </div>
+            <button onclick="hamburguer()" class="menu-hamburguesa animate__animated animate__delay-3s" id="menuHamburguesa">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </button>
+            
+            <div class="grid elimM item3"><a href="InicioPag.html">Inicio</a></div>
+            <div class="grid elimM item4"><a href="#productos">Productos</a></div>
+            <div class="grid elimM item5"><a href="puntosdeventa.html">Puntos de venta</a></div>
+            <div class="grid elimM item6"><a href="comunidad.html">Comunidad</a></div>
+            <div class="grid elimM item7"><a href="InicioPag.html">Asesor</a></div>
+       
+
+        </header>
+       
+    </section>
+    <div class="texto">
+    <h1 style="font-size: 30px;">COMUNIDAD GAMELION</h1>
+</div>
+    <section class="mapa">
+        <h2>Te damos la bienvenida a la única comunidad que siempre está lista para la batalla. Aquí puedes conocer a los jugadores y streamers de eSports del #teamGAMELION, nuestro gran orgullo. Además, tienes a tu disposición las reviews más completas sobre todos nuestros productos y un blog con los temas que más nos interesan. Y, de paso, puedes darle un poco de estilo a tu escritorio con nuestros wallpapers. ¡Adelante!</h2>
+       
+    </section>
+    <div class="vender">
+        <h3 class="rr">reviews GAMELION</h3>
+        <iframe class="video1 vr1" width="560" height="315" src="https://www.youtube.com/embed/k1iOYhRwDwU?si=WYQbk1KXxWPpvm32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="rr">QUE OPINAS?</h3>
+        <iframe class="video1 vr2" width="560" height="315" src="https://www.youtube.com/embed/2X3UTmUbaq8?si=hRQ0Pb3zS5T7_1dJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="rr">SI SERA ASI DE BUENO?</h3>
+        <iframe class="video1 vr3" width="560" height="315" src="https://www.youtube.com/embed/bo9M_RdcwDg?si=bxCgfvzinny1vnhF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="tr">COMO ASI?</h3>
+        <iframe class="video1  vr4" width="560" height="315" src="https://www.youtube.com/embed/gZ0WmNlv1IE?si=mspRJlj78Bm33h5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="tr">OMGDDD?</h3>
+        <iframe class="video1  vr5" width="560" height="315" src="https://www.youtube.com/embed/doqv8GeAhrU?si=qEFVe6B-ISFYL5qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="tr">QUE QUEEEE?</h3>
+        <iframe class="video1  vr6" width="560" height="315" src="https://www.youtube.com/embed/9yAUQHKo5a0?si=rZWMOHpua7bkWXcj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="vender2">
+        <h3 class="rr">reviews GAMELION</h3>
+        <iframe class="video1  " width="560" height="315" src="https://www.youtube.com/embed/gZ0WmNlv1IE?si=mspRJlj78Bm33h5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="tr">OMGDDD?</h3>
+        <iframe class="video1  " width="560" height="315" src="https://www.youtube.com/embed/doqv8GeAhrU?si=qEFVe6B-ISFYL5qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3 class="tr">QUE QUEEEE?</h3>
+        <iframe class="video1  " width="560" height="315" src="https://www.youtube.com/embed/9yAUQHKo5a0?si=rZWMOHpua7bkWXcj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <section class="scroll">
+        <button id="N1">1</button>
+        <button id="N2">2</button>
+        <button disabled>...</button>
+        <button>NEXT</button>
+    </section>
+    <section class="fondos">
+        <h4>Stickers para tu dispositivo</h4>
+        <div class="fond fn1"><a href="https://redragon.es/content/uploads/2021/04/WALLPAPER-17-1.jpg" download="WALLPAPER-17-1"><img src="../proyecto/imagenesproyecto/WALLPAPER-17-1.jpg" alt=""></a></div>
+        <h4>DESCARGA TU FONDO <img src="../proyecto/imagenesproyecto/descargarrr.gif" alt=""> </h4>
+        <div class="fond fn2"><a href="" download="descargarrr"><img src="../proyecto/imagenesproyecto/wall1.png" alt=""></a></div>
+        <h4>DESCARGA TU FONDO <img src="../proyecto/imagenesproyecto/descargarrr.gif" alt=""> </h4>
+        <div class="fond fn3"><a href="" download="WALLPAPER-9-1-1"><img src="../proyecto/imagenesproyecto/WALLPAPER-9-1-1.jpg" alt=""></a></div>
+        <h4>DESCARGA TU FONDO <img src="../proyecto/imagenesproyecto/descargarrr.gif" alt=""> </h4>
+        <div class="fond fn4"><a href="" download="WALLPAPER-17-1"><img src="../proyecto/imagenesproyecto/WALLPAPER-3-1.png" alt=""></a></div>
+        <h4>DESCARGA TU FONDO<img src="../proyecto/imagenesproyecto/descargarrr.gif" alt=""> </h4>
+        <h4>VER TODO <span>+</span></h4>
+    </section>
+    <div class="for">
+        <p>Ponte al dia con nosotros, deja tus datos y te estaremos enviando noticias de eventos, productos
+            nuevos y lo mejor de todo DESCUENTOS!!</p>
+        <form class="formulario">
+            <ul>
+                <li>
+                    <label for="name">Nombre Completo</label>
+                    <br>
+                    <input type="text" id="name" name="user_name" placeholder="Nombre completo" />
+                </li>
+                <br>
+                <li>
+                    <label for="mail">Correo Electrónico</label>
+                    <br>
+                    <input type="email" id="mail" name="user_mail" placeholder="Correo Electronico" />
+                </li>
+
+            </ul>
+        </form>
+    </div>
+    <section class="ultimo">
+        <div class="container5">
+            
+            <div class="ult fin3"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></div>
+            <div class="ult fin2">
+                <ul>
+                    <li><a href="">COMUNIDAD</a></li>
+                    <li><a href="">CENTRO DE AYUDA</a></li>
+                    <li><a href="">PUNTOS DE VENTA</a></li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+
+            </div>
+            
+
+        </div>
+    </section>
+    <footer class="finall">
+        <h3><a href="">Terminos y condiciones</a></h3>
+        <h4><a href="">Cookies</a></h4>
+        <h5><a href="">GamLion2023℗</a></h5>
+        
+        </footer>
+
+
+        <script>
+
+function hamburguer() {
+      let info = document.getElementById('menu');
+      info.style.display = (info.style.display === 'none') ? 'flex' : 'none';
+      const agglist = document.getElementById('')
+      const p = document.getElementById('menu')
+      
+
+    }
+const numero2 = document.getElementById('N2').value
+const anterior = document.getElementsByClassName('vender')
+const siguiente = document.getElementsByClassName('vender2')
+numero2.addEventListener('click',()=>{
+    anterior.style.display = (anterior.style.display === 'none') ? 'block' : 'none';
+    siguiente.style.display = (siguiente.style.display === 'none') ? 'flex' : 'none';
+
+})
+
+
+  
+</script>
+<script type="module" src="IniciodeSesion/iniciarsesion.js"></script>
+</body>
+</html>

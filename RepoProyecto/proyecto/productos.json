@@ -1,0 +1,134 @@
+{
+    "teclados":[{
+        "id":1,
+        "nombre":"kurumaK552",
+        "precio": 230000,
+        "img": "/proyecto/imagenesproductos/teclados/K552RGB.png"
+    },
+    {
+        "id":2,
+        "nombre":"horusK618",
+        "precio": 280000,
+        "img": "/proyecto/imagenesproductos/teclados/HORUS.png"
+    },
+    {
+        "id":3,
+        "nombre":"FizzPro",
+        "precio": 380000,
+        "img": "/proyecto/imagenesproductos/teclados/fizzpro.png"
+    },
+    {
+        "id":4,
+        "nombre":"Deimos",
+        "precio": 300000,
+        "img": "/proyecto/imagenesproductos/teclados/DEIMOS.png"
+    },
+    {
+        "id":5,
+        "nombre":"Diti",
+        "precio": 180000,
+        "img": "/proyecto/imagenesproductos/teclados/DITI.png"
+    }
+    
+    ],
+    "mouse":[{
+        "id":1,
+        "nombre":"storm",
+        "precio": 220000,
+        "img": "/proyecto/imagenesproductos/mouse/STORM.png"
+    },
+    {
+        "id":2,
+        "nombre":"inpact",
+        "precio": 218000,
+        "img": "/proyecto/imagenesproductos/mouse/IMPACT.png"
+    },
+    {
+        "id":3,
+        "nombre":"cobrafps",
+        "precio": 230000,
+        "img": "/proyecto/imagenesproductos/mouse/COBRA-FPS.png"
+    }
+    ,
+    {
+        "id":4,
+        "nombre":"griffin",
+        "precio": 330000,
+        "img": "/proyecto/imagenesproductos/mouse/GRIFFIN-W.png"
+    },
+    {
+        "id":5,
+        "nombre":"dagger",
+        "precio": 310000,
+        "img": "/proyecto/imagenesproductos/mouse/DAGGER.png"
+    }
+
+        
+        
+    ],
+    "audio":[{
+        "id":1,
+        "nombre":"zeus",
+        "precio": 520000,
+        "img": "/proyecto/imagenesproductos/audio/ZEUS-X-W-B.png"
+    },
+    {
+        "id":2,
+        "nombre":"ireblue",
+        "precio": 212000,
+        "img": "/proyecto/imagenesproductos/audio/ireblue.png"
+    },
+    {
+        "id":3,
+        "nombre":"pandora",
+        "precio": 230000,
+        "img": "/proyecto/imagenesproductos/audio/PANDORA-1.png"
+    }
+    ,
+    {
+        "id":4,
+        "nombre":"blazar",
+        "precio": 440000,
+        "img": "/proyecto/imagenesproductos/audio/BLAZAR.png"
+    },
+    {
+        "id":5,
+        "nombre":"quazar",
+        "precio": 310000,
+        "img": "/proyecto/imagenesproductos/audio/QUAZAR-1.png"
+    }
+
+        
+        
+    ],
+    "pads":[{
+        "id":1,
+        "nombre":"flicks",
+        "precio": 80000,
+        "img": "/proyecto/imagenesproductos/pads/FLICK-S.png"
+    },
+    {
+        "id":2,
+        "nombre":"epeius",
+        "precio": 120000,
+        "img": "/proyecto/imagenesproductos/pads/EPEIUS-3.png"
+    },
+    {
+        "id":3,
+        "nombre":"kunklun",
+        "precio": 130000,
+        "img": "/proyecto/imagenesproductos/pads/KUNLUN-L.png"
+    }
+    ,
+    {
+        "id":4,
+        "nombre":"piscies",
+        "precio": 440000,
+        "img": "/proyecto/imagenesproductos/pads/PISCIES-1.png"
+    }
+
+        
+        
+    ]
+
+}

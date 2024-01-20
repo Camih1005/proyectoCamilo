@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="puntodeventa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Puntos de venta</title>
+    
+</head>
+<body> 
+  <div id="IniciarSecion">
+  <button id="botonInicio">&#128100
+      
+  </button>
+  
+</div>
+<div id="CartelInicioSecion" class="an animate__animated animate__fadeInDown ">
+  <div id="dentroDelInicio">
+      
+  <h1>Iniciar Sesion</h1>
+  
+  <label for="NombreUsuario" id="Usuario">Usuario</label>
+  <input id="inputIngresar" type="text">
+  <label for="Contraseña" id="Contraseña">Contraseña</label>
+  <input id="Inputcontraseña" id type="password">
+  <button id="ingresar">Ingresar</button>
+  <button id="registrarse" >Registrarse</button>
+  <button id="cerrarInicio">Cerrar</button>
+  <a href="">Olvide la contraeña</a>
+</div>
+</div>
+
+
+
+
+<div id="contenedorRegistro">
+<div id="dentroDelregistro">
+  
+<h1>Registrase</h1>
+
+<label for="NombreUsuario" id="Usuario">Ingrese Usuario a registrar</label>
+<input id="inputRegistrar" type="text">
+<label for="Contraseña" id="Contraseña">Ingrese contraseña nueva</label>
+<input id="InputcontraseñaR" type="password">
+<button id="RegistrarUS">Registrarse</button>
+<button id="cerrarInicioR">Cerrar</button>
+
+</div>
+</div>
+     <section class="iml">
+
+
+        <div id="hamburguer">
+        
+            <nav class="menu animate__animated animate__delay-5s" id="menu">
+                <button id="cerrarHambur" onclick="hamburguer()">X</button>
+                <ul>
+                    <li><a href="InicioPag.html">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="puntosdeventa.html">Puntos de venta</a></li>
+                    <li><a href="comunidad.html">Comunidad</a></li>
+                    <li><a href="InicioPag.html">Asesor</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="encabezado animate__animated animate__fadeInDown">
+                    
+          <div class="grid  item1"><a href="InicioPag.html"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></a></div>
+          
+          
+        
+          <div class="grid item2">
+              <label for="buscar"></label>
+              <input class="elimM" list="hola" id="buscar" placeholder="Buscar 🔎" name="buscar">
+              
+              
+              <datalist id="hola">
+                  <option value="Teclados"></option>
+                  <option value="Ratones"></option>
+                  <option value="Camaras Web"></option>
+                  <option value="Teclas"></option>
+                  <option value="Audio"></option>
+              </datalist>
+          </div>
+          <button onclick="hamburguer()" class="menu-hamburguesa animate__animated animate__delay-3s" id="menuHamburguesa">
+              <div class="barra"></div>
+              <div class="barra"></div>
+              <div class="barra"></div>
+          </button>
+          
+          <div class="grid elimM item3"><a href="InicioPag.html">Inicio</a></div>
+          <div class="grid elimM item4"><a href="#productos">Productos</a></div>
+          <div class="grid elimM item5"><a href="puntosdeventa.html">Puntos de venta</a></div>
+          <div class="grid elimM item6"><a href="comunidad.html">Comunidad</a></div>
+          <div class="grid elimM item7"><a href="InicioPag.html">Asesor</a></div>
+        
+        
+        </header>
+    <div class="texto">
+    <h1>PUNTOS DE VENTA</h1>
+    <button>MAYORISTA</button>
+    <button>¿TIENES UNA TIENDA?</button>
+</div>
+    <section class="mapa">
+        <h2>SELECCIONA LA UBICACION DE TU TIENDA</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16288612.955754913!2d-74.33900609999999!3d4.645345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1ses-419!2sco!4v1700674788100!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div class="vender">
+        <h3>Quieres vender GAMELION?</h3>
+        <p>Completa el formulario y compartenos tu propuestas e inquietudes. <br>
+        Estaremos gustosos de servir de nexo entre tu tienda y los canales de comercializacion oficiales de GAMELION. Una vez que reciobamos tu propuesta la enviaremos rapidamente a las personas indicadas para que puedan comunicarse contigo</p>
+    </div>
+    <div class="formularioventas">
+    <button><a href="formulario.html">IR AL FORMULARIO</a></button>
+    </div>
+    <div class="for">
+        <p>Ponte al dia con nosotros, deja tus datos y te estaremos enviando noticias de eventos, productos
+            nuevos y lo mejor de todo DESCUENTOS!!</p>
+        <form class="formulario">
+            <ul>
+                <li>
+                    <label for="name">Nombre Completo</label>
+                    <br>
+                    <input type="text" id="name" name="user_name" placeholder="Nombre completo" />
+                </li>
+                <br>
+                <li>
+                    <label for="mail">Correo Electrónico</label>
+                    <br>
+                    <input type="email" id="mail" name="user_mail" placeholder="Correo Electronico" />
+                </li>
+
+            </ul>
+        </form>
+    </div>
+    <section class="ultimo">
+        <div class="container5">
+            
+            <div class="ult fin3"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></div>
+            <div class="ult fin2">
+                <ul>
+                    <li><a href="">COMUNIDAD</a></li>
+                    <li><a href="">CENTRO DE AYUDA</a></li>
+                    <li><a href="">PUNTOS DE VENTA</a></li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+
+            </div>
+            
+
+        </div>
+    </section>
+    <footer class="finall">
+        <h3><a href="">Terminos y condiciones</a></h3>
+        <h4><a href="">Cookies</a></h4>
+        <h5><a href="">GamLion2023℗</a></h5>
+        
+        </footer>
+        <script>
+
+function hamburguer(){
+      let info = document.getElementById('menu');
+      info.style.display = (info.style.display === 'none') ? 'flex' : 'none';
+      const agglist = document.getElementById('')
+      const p = document.getElementById('menu')
+      
+
+    }
+    
+  
+
+        </script>
+        <script type="module" src="IniciodeSesion/iniciarsesion.js"></script>
+     
+</body>
+</html>

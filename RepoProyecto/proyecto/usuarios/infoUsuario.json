@@ -1,0 +1,77 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "camilo",
+      "contraseña": "123",
+      "historial": []
+    },
+    {
+      "id": "0372",
+      "nombre": "cacaca",
+      "contraseña": "123"
+    },
+    {
+      "id": "e8b0",
+      "nombre": "lorenzo",
+      "contraseña": "123"
+    },
+    {
+      "id": "e88a",
+      "nombre": "lorenzogay",
+      "contraseña": "123",
+      "historial": [
+        "nombreProducto",
+        "nombreProducto",
+        "nombreProducto",
+        "nombreProducto",
+        "nombreProducto",
+        "nombreProducto",
+        "nombreProducto",
+        1900000
+      ]
+    },
+    {
+      "id": "1d8b",
+      "nombre": "camilo2",
+      "contraseña": "123",
+      "historial": [
+        {
+          "productos": [
+            {
+              "nombreProducto": "FizzPro",
+              "cantidad": 2
+            },
+            {
+              "nombreProducto": "horusK618",
+              "cantidad": 3
+            },
+            {
+              "nombreProducto": "Diti",
+              "cantidad": 2
+            }
+          ],
+          "fecha": "2024-01-20T04:54:48.616Z"
+        },
+        {
+          "productos": [
+            {
+              "nombreProducto": "Deimos",
+              "cantidad": 3
+            }
+          ],
+          "fecha": "2024-01-20T06:21:45.464Z"
+        },
+        {
+          "productos": [
+            {
+              "nombreProducto": "Deimos",
+              "cantidad": 3
+            }
+          ],
+          "fecha": "2024-01-20T06:21:45.464Z"
+        }
+      ]
+    }
+  ]
+}

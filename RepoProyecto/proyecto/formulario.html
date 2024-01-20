@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>formulario</title>
+</head>
+<body>
+  <div id="IniciarSecion">
+    <button id="botonInicio">&#128100
+        
+    </button>
+    <div id="CartelInicioSecion" class="an animate__animated animate__fadeInDown ">
+      <div id="dentroDelInicio">
+          
+      <h1>Iniciar Sesion</h1>
+      
+      <label for="NombreUsuario" id="Usuario">Usuario</label>
+      <input id="inputIngresar" type="text">
+      <label for="Contraseña" id="Contraseña">Contraseña</label>
+      <input id="Inputcontraseña" id type="password">
+      <button id="ingresar" onclick="iniciarSesion()">Ingresar</button>
+      
+      <button id="registrarse" >Registrarse</button>
+      <button id="cerrarInicio">Cerrar</button>
+      <a href="">Olvide la contraeña</a>
+  </div>
+  </div>
+  <div id="InicioCorrecto">
+  <div id="cacasInicio" >
+
+      <h1>Inicio exitoso</h1>
+      <p id="iniciosesionPP">
+      </p>
+      <button id="Entendido">Entendido</button>
+      <button><a href="../proyecto/formulario.html">Ir al formulario</a></button>
+
+  </div>
+</div>
+
+
+
+  <div id="contenedorRegistro">
+  <div id="dentroDelregistro">
+      
+  <h1>Registrase</h1>
+  
+  <label for="NombreUsuario" id="Usuario">Ingrese Usuario a registrar</label>
+  <input id="inputRegistrar" type="text">
+  <label for="Contraseña" id="Contraseña">Ingrese contraseña nueva</label>
+  <input id="InputcontraseñaR" type="password">
+  <button id="RegistrarUS">Registrarse</button>
+  <button id="cerrarInicioR">Cerrar</button>
+  
+</div>
+</div>
+    
+</div>
+  <div id="hamburguer">
+        
+    <nav class="menu animate__animated animate__delay-5s" id="menu">
+        <button id="cerrarHambur" onclick="hamburguer()">X</button>
+        <ul>
+            <li><a href="InicioPag.html">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="puntosdeventa.html">Puntos de venta</a></li>
+            <li><a href="comunidad.html">Comunidad</a></li>
+            <li><a href="InicioPag.html">Asesor</a></li>
+        </ul>
+    </nav>
+</div>
+<header class="encabezado animate__animated animate__fadeInDown">
+            
+  <nav class="nav">
+    <div class="grid  item1"><a href="InicioPag.html"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></a></div>
+    
+    <button class="menu-hamburguesa animate__animated animate__delay-3s" id="menuHamburguesa">
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <div class="barra"></div>
+    </button>
+ </nav>  
+  
+
+  <div class="grid item2">
+      <label for="buscar"></label>
+      <input class="elimM" list="hola" id="buscar" placeholder="Buscar 🔎" name="buscar">
+      
+      
+      <datalist id="hola">
+          <option value="Teclados"></option>
+          <option value="Ratones"></option>
+          <option value="Camaras Web"></option>
+          <option value="Teclas"></option>
+          <option value="Audio"></option>
+      </datalist>
+  </div>
+
+  
+  <div class="grid elimM item3"><a href="InicioPag.html">Inicio</a></div>
+  <div class="grid elimM item4"><a href="#productos">Productos</a></div>
+  <div class="grid elimM item5"><a href="puntosdeventa.html">Puntos de venta</a></div>
+  <div class="grid elimM item6"><a href="comunidad.html">Comunidad</a></div>
+  <div class="grid elimM item7"><a href="InicioPag.html">Asesor</a></div>
+
+
+</header>
+<section class="container1 animate__fadeInBottomRight">
+    <div>
+        <h1 class="animate__animated animate__fadeInLeftBig">¿QUIERES SER DISTRIBUIDOR?</h1> 
+     </div>
+</section>
+<section class="quieres animate__animated animate__fadeInLeftBig">
+    <div><h1>¿QUIERES TRABAJAR CON NOSOTROS? </h1>
+        <p>Si tienes una tienda física o virtual y te interesa comercializar GAMELION en tu ciudad o región, te invitamos a que completes el formulario y compartas con nosotros tu propuesta o tus inquietudes. <br>
+            Estaremos felices de ponerte en contacto rápidamente con las personas idóneas de tu zona para que se comuniquen contigo en la brevedad.
+            </p></div>
+</section>
+<section class="container2">
+<div class="fort it2"><h1>¿QUIERES SER DISTRIBUIDOR OFICIAL DE GAMELION Y AUMENTAR TUS INGRESOS? </h1>
+    <p>Si tienes una tienda física o virtual y te interesa comercializar GAMELION en tu ciudad o región, te invitamos a que completes el formulario y compartas con nosotros tu propuesta o tus inquietudes. <br>
+        Estaremos felices de ponerte en contacto rápidamente con las personas idóneas de tu zona para que se comuniquen contigo en la brevedad.
+        </p></div>
+<section class="form-register fort it1">
+    <form id="my-form" action="https://formspree.io/f/mwkgkdzq" method="POST">
+        <label>Nombre completo:</label>
+        <input type="text" name="Nombre Completo" />
+        <label>Pais:</label>
+        <input type="text" name="Pais" />
+        <label>Ciudad:</label>
+        <input type="text" name="Ciudad" />
+        <label>Telefono:</label>
+        <input type="number" name="Telefono" placeholder="+57" />
+        <label>Nombre de la empresa:</label>
+        <input type="text" name="Nombre de la Empresa" />
+        <label>Email:</label>
+        <input type="email" name="Correo Electronico" />       
+        <label>Por que quieres ser parte de nosotros?</label>
+        <input type="text" name="Por que quieres ser parte de nosotros?" id="TextoGrande"/>
+        <button id="my-form-button">Enviar Formulario</button>
+        <p id="my-form-status"></p>
+        <p id="Productsss">PRODUCTOS PARA DISTRIBUIDORES:</p>
+
+      </form>
+  </section>
+
+</section>
+  <section class="ultimo">
+    <div class="container5">
+        
+        <div class="ult fin3"><img src="../proyecto/imagenesproyecto/GAMLION.png" alt=""></div>
+        <div class="ult fin2">
+            <ul>
+                <li><a href="">COMUNIDAD</a></li>
+                <li><a href="">CENTRO DE AYUDA</a></li>
+                <li><a href="">PUNTOS DE VENTA</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+
+        </div>
+        
+
+    </div>
+</section>
+</div>
+    
+    </footer>
+    <div id="cockies">
+      <h3><a href="">Terminos y condiciones</a></h3>
+  <h4><a href="">Cookies</a></h4>
+  <h5><a href="">GamLion2023℗</a></h5>
+  </div>
+    <script>
+
+var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+
+    function hamburguer() {
+      let info = document.getElementById('menu');
+      info.style.display = (info.style.display === 'none') ? 'flex' : 'none';
+      const agglist = document.getElementById('')
+      const p = document.getElementById('menu')
+      
+
+    }
+    const inicioSecion = document.getElementById('botonInicio')
+
+inicioSecion.addEventListener('mouseover',cambiarcolor)
+inicioSecion.addEventListener('mouseout',cambiarcolor2)
+
+///
+const desplegarInicio = document.getElementById('CartelInicioSecion');
+
+function AbrirInicio() {
+desplegarInicio.style.display = (desplegarInicio.style.display === 'none') ? 'flex' : 'none';
+}
+
+const inicio = document.getElementById('botonInicio');
+inicio.addEventListener('click', AbrirInicio);
+
+function cambiarcolor(){
+        inicioSecion.style.filter = 'invert(0)'
+        inicioSecion.style.width = '80px'
+        inicioSecion.style.height = '40px'
+        inicioSecion.textContent= 'iniciar secion'
+        inicioSecion.style.transition = '0.5s ease-out'
+        inicioSecion.style.backgroundColor = 'black'
+        inicioSecion.style.color = 'white'
+        
+       
+
+        
+    }
+    function cambiarcolor2(){
+        inicioSecion.style.filter = 'invert(0)'
+         inicioSecion.style.width = ''
+        inicioSecion.style.height = ''
+        inicioSecion.innerHTML= '&#128100'
+        inicioSecion.style.transition = '0.5s ease-out'
+     
+        
+
+    }
+    const URL_BASE = 'http://localhost:3000';
+const USUARIOS_ENDPOINT = '/usuarios';
+const CARRITO_ENDPOINT = '/carrito';
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const usuarioGuardado = JSON.parse(sessionStorage.getItem('usuario'));
+  if (usuarioGuardado) {
+    alert(`¡Bienvenido de nuevo, ${usuarioGuardado.nombre}!`);
+    const carritoGuardado = JSON.parse(localStorage.getItem('carrito')) || { total: 0 };
+    totalCarrito = carritoGuardado.total;
+    carritoTotal.textContent = totalCarrito;
+  }
+});
+
+
+function iniciarSesion() {
+  const username = document.getElementById('inputIngresar').value;
+  const password = document.getElementById('Inputcontraseña').value;
+
+  fetch(`${URL_BASE}${USUARIOS_ENDPOINT}?nombre=${username}&contraseña=${password}`)
+    .then(respuesta => respuesta.json())
+    .then(usuarios => {
+      if (usuarios.length > 0) {
+        const usuario = usuarios[0];
+        alert(`¡Bienvenido, ${username}!`);
+        sessionStorage.setItem('usuario', JSON.stringify(usuario));
+        const carritoGuardado = JSON.parse(localStorage.getItem('carrito')) || { total: 0 };
+        totalCarrito = carritoGuardado.total;
+        carritoTotal.textContent = totalCarrito;
+      } else {
+        alert('Credenciales incorrectas. Intenta de nuevo o regístrate.');
+      }
+    })
+    .catch(error => console.error('Error al iniciar sesión:', error));
+}
+    
+
+
+
+  function registrarUsuario() {
+  const newUsername = document.getElementById('inputRegistrar').value;
+  const newPassword = document.getElementById('InputcontraseñaR').value;
+
+  fetch(`${URL_BASE}${USUARIOS_ENDPOINT}?nombre=${newUsername}`)
+    .then(respuesta => respuesta.json())
+    .then(usuarios => {
+      if (usuarios.length > 0) {
+        alert('Este nombre de usuario ya está registrado. Por favor, elige otro.');
+      } else {
+        fetch(`${URL_BASE}${USUARIOS_ENDPOINT}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ nombre: newUsername, contraseña: newPassword }),
+        })
+          .then(respuesta => respuesta.json())
+          .then(usuarioRegistrado => {
+            return fetch(`${URL_BASE}${USUARIOS_ENDPOINT}/${usuarioRegistrado.id}`);
+          })
+          .then(respuesta => respuesta.json())
+          .then(usuario => {
+            alert(`Usuario ${newUsername} registrado con éxito. ¡Ahora puedes iniciar sesión!`);
+          })
+          .catch(error => console.error('Error al registrar usuario:', error));
+      }
+    })
+    .catch(error => console.error('Error al verificar existencia del usuario:', error));
+}
+
+    const ValidarRegistro = document.getElementById('RegistrarUS')
+    ValidarRegistro.addEventListener('click',registrarUsuario)
+
+
+    const CartelR = document.getElementById('contenedorRegistro')
+
+    const loginUsername = document.getElementById('inputIngresar').value;
+    const loginPassword = document.getElementById('Inputcontraseña').value;
+    
+
+    function RegistrarCartel() {
+    CartelR.style.display = (CartelR.style.display === 'none') ? 'flex' : 'none';
+    CerrarInicio.style.display = (CerrarInicio.style.display === 'none') ? 'flex' : 'none';
+    if(loginUsername=='' && loginPassword == ''){
+     CerrarInicio.style.display = (CerrarInicio.style.display === 'none') ? 'flex' : 'none'
+    }
+    }
+   const registrarBoton = document.getElementById('registrarse');
+   registrarBoton.addEventListener('click',RegistrarCartel);
+    
+
+   
+   function CerrarR() {
+    CartelR.style.display = (CartelR.style.display === 'none') ? 'flex' : 'none';
+}
+    
+
+    const cerrarRegistro = document.getElementById('cerrarInicioR')
+    cerrarRegistro.addEventListener('click', CerrarR);
+
+    const botonEntendido = document.getElementById('Entendido')
+    botonEntendido.addEventListener('click',()=>{
+        const InicioExitoso = document.getElementById('InicioCorrecto')
+        InicioExitoso.style.display = (InicioExitoso.style.display === 'none') ? 'flex' : 'none'; 
+    })
+  
+    </script>
+
+    
+</body>
+</html>

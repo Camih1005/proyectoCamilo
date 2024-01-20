@@ -1,0 +1,1183 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,800&family=Amaranth:ital,wght@1,700&family=Fugaz+One&family=Kaushan+Script&family=Lato:wght@100&family=Zen+Dots&display=swap");
+.ana{
+  display: none;
+}
+.container1 {
+  background:url(../proyecto/imagenesproyecto/230131-Redragon-Arma-tu-estudio-Principal-4-3-1.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: end;
+
+}
+#buscar{
+  display: none;
+}
+.nuevaClase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+}
+#contDentroExit{
+  width: auto;
+  height: auto;
+  border: white solid 1px;
+  padding: 20px;
+  background-color: #000000d7;
+  color: white;
+}
+/*carrito de compras*/
+#contCarrito{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 12;
+}
+#contDentroCarrito{
+  width: auto;
+  height: auto;
+  border: white solid 1px;
+  padding: 20px;
+  background-color: #00000079;
+  color: white;
+
+}
+
+
+#IniciarSecion{
+  width: 300px;
+}
+#IniciarSecion>button{
+  position:fixed;
+  z-index: 20;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  margin-left: 30px;
+  top: 120px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px red;
+  filter: invert(1);
+  
+
+}
+#IniciarSecion>button:hover{
+  border-radius: 6px;
+  transition: 0.5s ease-in-out;
+  box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
+}
+
+/*iniciar seccion*/
+
+#CartelInicioSecion{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+text-align: center;
+  position: fixed;
+  z-index: 40;
+  background-color: rgba(0, 0, 0, 0.76);
+  margin: 0 auto;
+}
+#dentroDelInicio{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px red;
+  height: 60%;
+  width: 20%;
+  gap: 10px;
+  padding: 30px;
+  background-color: #000000;
+
+
+}
+#cerrarInicio{
+
+border: none;
+border-radius: 2px;
+background-color: red;
+cursor: pointer;
+}
+#ingresar,#registrarse{
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #852b2b8d;
+  cursor: pointer;
+}
+#dentroDelInicio>a{
+  color: rgb(255, 0, 0);
+}
+#inputIngresar{
+  background-color: #ffffff65;
+}
+input {
+  height: 30px;
+  width: 190px;
+  border-radius: 20px;
+  border: none;
+  transition-duration: 0.3s;
+  cursor: text;
+  background-color: rgb(115, 150, 255, 0.3);
+  color: #fff;
+}
+label{
+  color: white;
+}
+
+/*registro*/
+
+#contenedorRegistro{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  position: fixed;
+  z-index: 40;
+  background-color: rgba(0, 0, 0, 0.76);
+  margin: 0px;
+}
+
+#dentroDelregistro{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px red;
+  height: 60%;
+  width: 20%;
+  padding: 20px;
+  background-color: #000000;
+
+
+}
+
+
+#cacasInicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contenedorProductos{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+
+#IniciarSecion{
+  width: 300px;
+}
+#IniciarSecion>button{
+  position:fixed;
+  z-index: 20;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  margin-left: 30px;
+  top: 120px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px red;
+  filter: invert(1);
+  
+
+}
+#IniciarSecion>button:hover{
+  border-radius: 6px;
+  transition: 0.5s ease-in-out;
+  box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
+}
+#tecladosP,#mouseP,#audioP,#padsP,div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  text-align: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+header{
+  border: solid 2px black;
+ 
+}
+.contenedorProductos h1{
+  color: white;
+}
+header:hover{
+  padding:0px 10px 0px 10px;
+  transition: ease-in 0.5s;
+}
+
+header,img{
+  width: 300px;
+  height:auto;
+  transition: ease-in-out 0.5s;
+}
+header img:hover{
+  width: 320px;
+}
+#tecladosP,#mouseP,#audioP,#padsP{
+  display: flex;
+  width: auto;
+  align-items: center;
+  height: auto;
+  margin: 0 auto;
+  z-index: 10;
+
+}
+#CarroCompras,button{
+  margin: 6px;
+  background-color: #c4c4c46f;
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+  cursor: pointer;
+  color: white;
+  padding: 4px;
+}
+#CarroCompras:hover{
+  background-color: rgb(58, 248, 0);
+  color: rgb(0, 0, 0);
+}
+#botonAgregar:hover{
+  background-color:rgb(58, 248, 0) ;
+color: #000000;
+}
+
+#contenedorCarro{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  height: 300px;
+  position: fixed;
+  align-items: end;
+}
+
+#CarroCompras{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 120;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.ventaBoton{
+  display: flex;
+
+}
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: "Zen Dots", sans-serif;
+}
+*{
+    margin: 0;
+    font-family: "Zen Dots", sans-serif;
+
+}
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+img,.texto,.mapa,.vender,.formularioventas,.for,.grid,.imagenmenu
+    h1,
+    p,
+    .footer1 {
+     
+      view-timeline-name: --image;
+      view-timeline-axis: block;
+  
+      animation-timeline: --image;
+      animation-name: show;
+      animation-range: entry 1% cover 30%;
+      animation-fill-mode: both;
+    }
+
+   
+   
+    
+ 
+    #cockies{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      font-size: 6px;
+      text-align: center;
+      height: 60px;
+      width: 80%;
+      gap: 13px;
+      margin: 0 auto;
+      color: red;
+     } 
+     #cockies a{
+      color: red;
+      font-size: 12px;
+     }
+     .contenedorProductos,h1{
+      color: red;
+      margin: 20px;
+     }
+@media (max-width: 768px){
+  
+  
+  
+  #dentroDelregistro{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  #contenedorRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #dentroDelInicio{
+    border: solid 2px red;
+    height: 60%;
+    width: 200px;
+  }
+  
+  
+
+
+  
+  #tecladoP{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: #ff0000;
+    width: 500px;
+    height: 500px;
+  }
+  
+
+
+.container1 {
+    background:url(../proyecto/imagenesproyecto/230131-Redragon-Arma-tu-estudio-Principal-4-3-1.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: end;
+
+}
+
+.grid a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.elimM{
+  display: none;
+}
+#cerrarHambur{
+  background-color: #ff0000c1;
+  color: #000000;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.menu-hamburguesa {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #70707049;
+  border: none;
+  margin-left: 150px;
+  border-radius: 5px;
+  z-index: 60;
+ 
+}
+.barra {
+  width: 30px;
+  height: 3px;
+  background-color: #000000;
+  margin: 6px 0;
+  z-index: 60;
+  
+ 
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #212121f5;
+  padding: 15px;
+  box-sizing: border-box;
+  z-index: 60;
+  
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu li {
+  margin-bottom: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+.encabezado{
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+  position: fixed;
+
+}
+.item1 img{
+width: 80px;
+}
+
+.item2 input {
+    height: 30px;
+    width: 190px;
+    border-radius: 20px;
+    border: none;
+    transition-duration: 0.3s;
+    cursor: text;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    list-style: none;
+  }
+
+  .item2 input:placeholder-shown {
+    border-color: rgb(255, 255, 255);
+    color: rgb(235, 235, 235, 0.5);
+    font-family: "Zen Dots", sans-serif;
+    font-size: 15px;
+  }
+  .item2 input:hover{
+    width: 220px;
+  }
+  .quieres h1{
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  .quieres p{
+    color: #fff;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 16px ;
+  }
+ 
+  
+  .controls {
+    width: 95%;
+    background: rgba(255, 0, 0, 0.235);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 15px;
+    color: white;
+    
+    
+    
+  } 
+
+  .fin3 img{
+    display: none;
+  }
+  .container5 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, transparent, rgb(9, 9, 9,0.9),rgb(9, 9, 9)),
+              url(../proyecto/imagenesproyecto/HEROS-desktop-6.jpg) no-repeat center center;
+    margin: 0 auto;
+    
+    font-size: 11px;
+  }
+  .it2{
+    display: none;
+  }
+
+
+  .fin2 {
+    width: auto;
+    height: 60px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .fin2 a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fin2 li{
+    list-style-type: none;
+    
+  }
+  .finall{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .finall a{
+   
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    
+  }
+  footer h3 a{
+    margin: 0 auto;
+    width: 100px;
+    color: #ffffff;
+  }
+  .ultimo{
+    width: 90%;
+    display: flex;
+    margin: 30px auto;
+  }
+  #soloCel{
+    display: none;
+  }
+  #contenedorRegistro{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    position: fixed;
+    z-index: 40;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 0px;
+  } 
+ 
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+  #hamburguer{
+    display: none;
+  }
+  #menuHamburguesa{
+    display: none;
+  }
+    .container1 {
+        background:url(../proyecto/imagenesproyecto/S101-BA-Header-1.jpg) no-repeat center;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: end;
+    
+    }
+    .container1 h1{
+        color: rgb(255, 255, 255);
+        width: 450px;
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .encabezado{
+        position: absolute;
+        display: grid;
+        width: 95%;
+        border-color: transparent transparent gray transparent;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        border-style: solid;
+        height: 100px;
+        
+    
+    }
+    .grid a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 7px #8c8c8c, 0 0 10px #474747, 0 0 21px #888888,
+          0 0 82px rgb(255, 255, 255), 0 0 92px rgb(255, 255, 255),
+          0 0 151px rgb(255, 255, 255);
+      }
+    .item1{
+        grid-column: 1/2;
+      }
+      .grid img{
+          width: 100px;
+         
+      }
+      .grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item2 input{
+      width: 80px;
+      grid-column: 2/3;
+      }
+      .item2 input:hover{
+        width: 120px;
+      }
+      .itemimgg{
+        display: none;
+      }
+      .item3{
+        grid-column: 3/4;
+      }
+      .item4{
+        grid-column: 4/5;
+      }
+      .item5{
+        grid-column: 5/6;
+      }
+      .item6{
+        grid-column: 6/7;
+      }
+      .item7{
+        grid-column: 7/8;
+      }
+      .grid a{
+        color: white;
+        text-decoration: none;
+      }
+    
+    .item1 img{
+    width: 80px;
+    }
+    .itemimgg img{
+        width: 60px;
+    }
+    .item2 input {
+        height: 30px;
+        width: 190px;
+        border-radius: 20px;
+        border: none;
+        transition-duration: 0.3s;
+        cursor: text;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        list-style: none;
+      }
+    
+      .item2 input:placeholder-shown {
+        border-color: rgb(255, 255, 255);
+        color: rgb(235, 235, 235, 0.5);
+        font-family: "Zen Dots", sans-serif;
+        font-size: 15px;
+      }
+      .item2 input:hover{
+        width: 220px;
+      }
+      .quieres h1{
+        color: #fff;
+        margin-top: 90px;
+        margin-left: 30px;
+        font-size: 20px;
+        display: none;
+      }
+      .quieres p{
+        color: #fff;
+        margin-top: 90px;
+        margin-left: 30px;
+        font-size: 15px ;
+        display: none;
+      }
+      .form-register {
+        width: 340px;
+        background: rgba(73, 73, 73, 0.392);
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: "Zen Dots", sans-serif;
+        color: white;
+        box-shadow: 4px 4px 4px #1c1c1c;
+        height: 650px;
+      }
+      
+      .form-register h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      
+      .controls {
+        width: 95%;
+        background: rgba(255, 0, 0, 0.235);
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #000000;
+        font-family: "Zen Dots", sans-serif;
+        font-size: 15px;
+        color: white;
+        
+        
+      } 
+      .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      
+      .form-register a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      .form-register a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      
+      .form-register .botons {
+        width: 100%;
+        background: #d41f1fc6;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+      }
+      .fin3 img{
+        display: none;
+      }
+      .container5 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, transparent, rgb(9, 9, 9,0.9),rgb(9, 9, 9)),
+              url(../proyecto/imagenesproyecto/HEROS-desktop-6.jpg) no-repeat center center;
+        margin: 0 auto;
+        
+        font-size: 11px;
+      }
+    
+      .fin2 {
+        width: auto;
+        height: 60px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+      .fin2 a{
+        color: white;
+        text-decoration: none;
+      }
+      
+      .fin2 li{
+        list-style-type: none;
+        
+      }
+      .finall{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+      }
+      .finall a{
+       
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        
+      }
+      footer h3 a{
+        margin: 0 auto;
+        width: 100px;
+        color: #ffffff;
+      }
+      .ultimo{
+        width: 90%;
+        display: flex;
+        margin: 30px auto;
+        
+      }
+      .ultimo p{
+        font-size: 30p;
+      }
+      .container2{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+      }
+      .it2{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        
+      }
+      .it1{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+      }
+      .it2 h1{
+        margin: 15px;
+        font-size: 25px;
+      }
+      .it2 p{
+        margin: 20px;
+        font-size: 18px;
+      }
+      .ultimo li a{
+        font-size: 17px;
+      }
+      .header{
+        display: none;
+    }
+    .scrolling-buttons-container{
+      display: none;
+    }
+    
+    
+    }
+    @media(min-width:1024px) {
+
+    
+        .container1 {
+            background:url(../proyecto/imagenesproyecto/230131-Redragon-Arma-tu-estudio-Principal-4-3-1.jpg) no-repeat center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        
+        }
+        .container1 h1{
+            color: rgb(165, 0, 0);
+            width: 450px;
+            font-size: 60px;
+            margin-left: 30px;
+            text-shadow: 3px 3px 3px 3px black;
+        }
+        .encabezado{
+            position: absolute;
+            display: grid;
+            width: 95%;
+            border-color: transparent transparent gray transparent;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+            border-style: solid;
+            height: 100px;
+            
+        
+        }
+        .grid a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 7px #8c8c8c, 0 0 10px #474747, 0 0 21px #888888,
+              0 0 82px rgb(255, 255, 255), 0 0 92px rgb(255, 255, 255),
+              0 0 151px rgb(255, 255, 255);
+          }
+        .item1{
+            grid-column: 1/2;
+          }
+          .grid img{
+              width: 100px;
+             
+          }
+          .grid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          #buscar{
+          width: 80px;
+          grid-column: 2/3;
+          grid-row: 1/2;
+          }
+          #buscar:hover{
+            width: 120px;
+          }
+          .itemimgg{
+            display: none;
+          }
+          .item3{
+            grid-column: 3/4;
+          }
+          .item4{
+            grid-column: 4/5;
+          }
+          .item5{
+            grid-column: 5/6;
+          }
+          .item6{
+            grid-column: 6/7;
+          }
+          .item7{
+            grid-column: 7/8;
+          }
+          .grid a{
+            color: white;
+            text-decoration: none;
+          }
+        
+        .item1 img{
+        width: 80px;
+        }
+        .itemimgg img{
+            width: 60px;
+        }
+        .item2 input {
+            height: 30px;
+            width: 190px;
+            border-radius: 20px;
+            border: none;
+            transition-duration: 0.3s;
+            cursor: text;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            list-style: none;
+          }
+        
+          .item2 input:placeholder-shown {
+            border-color: rgb(255, 255, 255);
+            color: rgb(235, 235, 235, 0.5);
+            font-family: "Zen Dots", sans-serif;
+            font-size: 15px;
+          }
+          .item2 input:hover{
+            width: 220px;
+          }
+          .quieres h1{
+            color: #fff;
+            margin-top: 90px;
+            margin-left: 30px;
+            font-size: 20px;
+            display: none;
+          }
+          .quieres p{
+            color: #fff;
+            margin-top: 90px;
+            margin-left: 30px;
+            font-size: 15px ;
+            display: none;
+          }
+        
+          
+       
+          
+          
+          .controls {
+            width: 95%;
+            background: rgba(255, 0, 0, 0.235);
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #000000;
+            font-family: "Zen Dots", sans-serif;
+            font-size: 15px;
+            color: white;
+            
+            
+          } 
+       
+          .fin3 img{
+            display: none;
+          }
+          .container5 {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            border: none;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to bottom, transparent, rgb(9, 9, 9,0.9),rgb(9, 9, 9)),
+              url(../proyecto/imagenesproyecto/HEROS-desktop-6.jpg) no-repeat center center;
+            margin: 0 auto;
+            
+            font-size: 11px;
+          }
+        
+          .fin2 {
+            width: auto;
+            height: 60px;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+          }
+          .fin2 a{
+            color: white;
+            text-decoration: none;
+          }
+          
+          .fin2 li{
+            list-style-type: none;
+            
+          }
+          .finall{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+          }
+          .finall a{
+           
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            
+          }
+          footer h3 a{
+            margin: 0 auto;
+            width: 100px;
+            color: #ffffff;
+          }
+          .ultimo{
+            width: 90%;
+            display: flex;
+            margin: 30px auto;
+            
+          }
+          .ultimo p{
+            font-size: 30p;
+          }
+          .container2{
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+          }
+          .it2{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+            
+          }
+          .it1{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            
+          }
+          .it2 h1{
+            margin: 15px;
+            font-size: 25px;
+          }
+          .it2 p{
+            margin: 20px;
+            font-size: 18px;
+          }
+          .ultimo li a{
+            font-size: 17px;
+          }
+          .header{
+            display: none;
+        }
+        #soloCel{
+          display: none;
+        }
+        #hamburguer{
+          display: none;
+        }
+        #menuHamburguesa{
+          display: none;
+        }
+        .scrolling-buttons-container{
+          display: none;
+        }
+        
+        
+        }
